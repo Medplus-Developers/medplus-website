@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "medplus-website",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Website of MedPlus",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Lauriel Mesquita <laurielmesquita@me.com>",
   "dependencies": {
     "gatsby": "^2.32.3",
     "gatsby-image": "^2.11.0",
@@ -19,10 +19,11 @@
     "react-helmet": "^6.1.0"
   },
   "devDependencies": {
-    "prettier": "2.2.1"
+    "prettier": "2.2.1",
+    "standard": "^16.0.3"
   },
   "keywords": [
-    "gatsby"
+    "medplus"
   ],
   "license": "0BSD",
   "scripts": {
@@ -36,9 +37,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/Medplus-Developers/medplus-website"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/Medplus-Developers/medplus-website/issues"
   }
 }
