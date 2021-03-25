@@ -7,8 +7,8 @@ import SEO from '../components/seo'
 const IndexPage = () => (
   <Layout>
     <SEO title='Home' />
-    <h1>Olá Pilantras</h1>
-    <p>Bem vindos ao novo site da MedPlus.</p>
+    <h1>Olá Visitante</h1>
+    <p>Bem vindo ao novo site da MedPlus.</p>
     <Link to='/page-2/'>Vamos à página 2</Link> <br />
   </Layout>
 )
