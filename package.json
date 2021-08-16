@@ -1,45 +1,50 @@
 {
-  "name": "medplus-website",
+  "name": "medplus",
+  "version": "1.0.0",
+  "author": "MEDPLUS Distribuidora",
   "private": true,
-  "description": "Website of MedPlus",
-  "version": "0.1.0",
-  "author": "Lauriel Mesquita <laurielmesquita@me.com>",
-  "dependencies": {
-    "gatsby": "^3.1.2",
-    "gatsby-image": "^3.1.0",
-    "gatsby-plugin-manifest": "^3.1.0",
-    "gatsby-plugin-offline": "^4.1.0",
-    "gatsby-plugin-react-helmet": "^4.1.0",
-    "gatsby-plugin-sharp": "^3.1.2",
-    "gatsby-source-filesystem": "^3.1.0",
-    "gatsby-transformer-sharp": "^3.1.0",
-    "prop-types": "^15.7.2",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-helmet": "^6.1.0"
+  "workspaces": [
+    "components",
+    "common",
+    "gatsbyjs",
+    "nextjs",
+    "docz"
+  ],
+  "scripts": {
+    "clean": "lerna clean --yes && rimraf node_modules",
+    "clean:build": "lerna exec -- rimraf \"{.next,dist,out,build,.docz,.cache, public}\"",
+    "gatsby-dev": "yarn workspace @deadline/gatsbyjs run develop",
+    "gatsby-build": "yarn workspace @deadline/gatsbyjs run build",
+    "gatsby-clean": "yarn workspace @deadline/gatsbyjs run clean",
+    "gatsby-serve": "yarn workspace @deadline/gatsbyjs run serve",
+    "nextjs-dev": "yarn workspace @deadline/nextjs run dev",
+    "nextjs-build": "yarn workspace @deadline/nextjs run build",
+    "nextjs-serve": "yarn workspace @deadline/nextjs run start",
+    "nextjs-export": "yarn workspace @deadline/nextjs run export",
+    "docz-dev": "yarn workspace @deadline/docz run docz:dev",
+    "docz-build": "yarn workspace @deadline/docz run docz:build",
+    "prebuild": "yarn clean:build"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,md,css,html}": [
+      "prettier --trailing-comma es5 --single-quote --write",
+      "git add"
+    ],
+    "yarn.lock": [
+      "git rm --cached"
+    ]
   },
   "devDependencies": {
-    "prettier": "2.2.1",
-    "standard": "^16.0.3"
-  },
-  "keywords": [
-    "medplus"
-  ],
-  "license": "0BSD",
-  "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Medplus-Developers/medplus-website"
-  },
-  "bugs": {
-    "url": "https://github.com/Medplus-Developers/medplus-website/issues"
+    "cross-env": "^7.0.3",
+    "husky": "^7.0.1",
+    "lerna": "^4.0.0",
+    "lint-staged": "^11.1.2",
+    "prettier": "^2.3.2",
+    "rimraf": "^3.0.2"
   }
 }

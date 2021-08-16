@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="MedPlus" title="MedPlus" src=".github/brand_logo.svg" width="228.1px" />
+    <img alt="MEDPLUS" title="MEDPLUS" src=".github/brand_logo.svg" width="228.1px" />
 </h1>
 
 <p align="center">
@@ -20,7 +20,7 @@
 </p>
 
 <h2 align="center">
-  MedPlus Website
+  MEDPLUS Website
 </h2>
 
 <br><br>
