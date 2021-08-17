@@ -278,7 +278,7 @@ export const MainContentSection = styled.div`
     position: relative;
   }
   h2 {
-    font-size: 50px;
+    font-size: 48px;
     font-family: 'DM Sans', sans-serif;
     color: #fff;
     line-height: 1.44;
@@ -287,7 +287,7 @@ export const MainContentSection = styled.div`
     font-weight: 700;
     letter-spacing: -0.05em;
     margin-bottom: 20px;
-    width: 680px;
+    width: 720px;
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -304,22 +304,22 @@ export const MainContentSection = styled.div`
     }
   }
   p {
-    font-size: 18px;
+    font-size: 21px;
     font-family: 'Lato', sans-serif;
     color: #bfb8e5;
     line-height: 1.83;
     text-align: center;
-    max-width: 480px;
+    max-width: 580px;
     margin-bottom: 0;
     /* opacity: 0.7; */
     @media (max-width: 1600px) {
-      font-size: 16px;
+      font-size: 18px;
     }
     @media (max-width: 768px) {
-      font-size: 16px;
+      font-size: 18px;
     }
     @media (max-width: 480px) {
-      font-size: 14px;
+      font-size: 16px;
       max-width: 100%;
     }
   }
