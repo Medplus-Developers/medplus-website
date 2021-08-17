@@ -36,8 +36,8 @@ import MainContentWrapper, {
 } from '@deadline/common/ui/fourteen.style'
 import LogoImage from '@deadline/common/static/images/logoTwo.svg'
 // Language translation files
-import localEng from '@deadline/common/data/translation/en.json'
 import localPor from '@deadline/common/data/translation/pt.json'
+import localEng from '@deadline/common/data/translation/en.json'
 import { SOCIAL_PROFILES } from '@deadline/common/data/social-share/fourteen'
 import { Container, SocialShare, SEO } from '../components'
 // Language translation Config

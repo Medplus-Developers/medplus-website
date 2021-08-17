@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="150" height="150" viewBox="0 0 150 150">
   <defs>
     <linearGradient id="linear-gradient" x2="1" y2="0.9" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#4c9cda"/>
-      <stop offset="1" stop-color="#476dc5"/>
+      <stop offset="0" stop-color="#AA4DBD"/>
+      <stop offset="1" stop-color="#3A2D7B"/>
     </linearGradient>
   </defs>
   <g id="floating_button" data-name="floating button" transform="translate(-1754 -911)">
