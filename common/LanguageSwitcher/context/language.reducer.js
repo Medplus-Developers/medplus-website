@@ -1,14 +1,14 @@
 export const initialState = {
-  lang: 'en',
-};
-export default function languageReducer(state, action) {
+  lang: 'pt'
+}
+export default function languageReducer (state, action) {
   switch (action.type) {
     case 'CURRENT_LANGUAGE':
       return {
         ...state,
-        lang: action.payload,
-      };
+        lang: action.payload
+      }
     default:
-      return state;
+      return state
   }
 }

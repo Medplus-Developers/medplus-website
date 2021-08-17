@@ -1,6 +1,6 @@
-import styled, { keyframes } from 'styled-components';
-import BG from '../static/images/fourteen/bg.png';
-import { createGlobalStyle } from 'styled-components';
+import styled, { keyframes } from 'styled-components'
+import BG from '../static/images/fourteen/bg.png'
+import { createGlobalStyle } from 'styled-components'
 
 export const ModalStyle = createGlobalStyle`
   .newsletter-modal{
@@ -8,10 +8,10 @@ export const ModalStyle = createGlobalStyle`
     border: 0 !important;
     padding: 0 !important;
     .reusecore__button{
-      background: linear-gradient(-30deg,#642b73 0%,#c6426e 100%);
+      background: linear-gradient(-30deg,#3A2D7B 0%,#AA4DBD 100%);
     }
   }
-`;
+`
 
 const ring = keyframes`
   0% { transform: rotate(0); }
@@ -38,7 +38,7 @@ const ring = keyframes`
   41% { transform: rotate(1deg); }
   43% { transform: rotate(0); }
   100% { transform: rotate(0); }
-`;
+`
 
 const goRight = keyframes`
    0%, 20%, 80%, 100% {
@@ -50,7 +50,7 @@ const goRight = keyframes`
   60% {
     transform: translateX(6px);
   }
-`;
+`
 
 export const LogoImageContainer = styled.div`
   text-align: center;
@@ -74,17 +74,17 @@ export const LogoImageContainer = styled.div`
     margin: 0 auto;
     display: block;
   }
-`;
+`
 
 export const MainWrapper = styled.div`
   display: flex;
   max-width: 100%;
   overflow: hidden;
-  background: linear-gradient(0deg, #642b73 0%, #c6426e 100%);
+  background: linear-gradient(0deg, #aa4dbd 0%, #0d0a1a 100%);
   @media (max-width: 1300px) and (min-width: 1200px) {
     background-position: center 120%;
   }
-`;
+`
 
 const MainContentWrapper = styled.section`
   position: relative;
@@ -99,7 +99,7 @@ const MainContentWrapper = styled.section`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-`;
+`
 export const NormalClockWrapper = styled.div`
   position: relative;
   margin: 60px 0 0;
@@ -234,12 +234,13 @@ export const NormalClockWrapper = styled.div`
       .digitLabel {
         font-size: 16px;
         font-family: 'Roboto', sans-serif;
-        color: #fff;
+        color: #bfb8e5;
         text-transform: uppercase;
         text-align: center;
         font-weight: 500;
         letter-spacing: 0.2em;
         margin-top: 10px;
+        /* opacity: 0.7; */
         @media (max-width: 1600px) {
           font-size: 16px;
         }
@@ -249,7 +250,7 @@ export const NormalClockWrapper = styled.div`
       }
     }
   }
-`;
+`
 export const MainContentSection = styled.div`
   display: flex;
   flex-direction: column;
@@ -305,11 +306,12 @@ export const MainContentSection = styled.div`
   p {
     font-size: 18px;
     font-family: 'Lato', sans-serif;
-    color: #fff;
+    color: #bfb8e5;
     line-height: 1.83;
     text-align: center;
     max-width: 480px;
     margin-bottom: 0;
+    /* opacity: 0.7; */
     @media (max-width: 1600px) {
       font-size: 16px;
     }
@@ -321,7 +323,7 @@ export const MainContentSection = styled.div`
       max-width: 100%;
     }
   }
-`;
+`
 
 export const ButtonWrapper = styled.div`
   text-align: center;
@@ -421,7 +423,7 @@ export const ButtonWrapper = styled.div`
       }
     }
   }
-`;
+`
 
 export const SideBar = styled.div`
   width: 0;
@@ -458,7 +460,7 @@ export const SideBar = styled.div`
       height: 100%;
     }
   }
-`;
+`
 
 export const Overlay = styled.div`
   position: absolute;
@@ -473,7 +475,7 @@ export const Overlay = styled.div`
     transform: translateX(-100%);
     transition-delay: 0.4s;
   }
-`;
+`
 
 export const SidebarContent = styled.div`
   position: relative;
@@ -490,7 +492,7 @@ export const SidebarContent = styled.div`
   @media (max-width: 600px) {
     padding: 50px 65px 50px 35px;
   }
-`;
+`
 
 export const About = styled.div`
   text-align: center;
@@ -520,7 +522,7 @@ export const About = styled.div`
       font-size: 15px;
     }
   }
-`;
+`
 
 export const Contact = styled.div`
   margin-bottom: 120px;
@@ -542,14 +544,14 @@ export const Contact = styled.div`
     }
   }
   button {
-    background: linear-gradient(-30deg, #642b73 0%, #c6426e 100%);
+    background: linear-gradient(-30deg, #3a2d7b 0%, #aa4dbd 100%);
   }
-`;
+`
 
 export const Info = styled.div`
   display: flex;
   flex-wrap: wrap;
-`;
+`
 
 export const InfoItem = styled.div`
   flex: 0 0 33.333333%;
@@ -577,12 +579,12 @@ export const InfoItem = styled.div`
     line-height: 1.6;
     margin-bottom: 0;
   }
-`;
+`
 
 export const InfoIcon = styled.div`
   color: #bfbcc7;
   margin-bottom: 25px;
-`;
+`
 
 export const SidebarClose = styled.button`
   display: block;
@@ -602,7 +604,7 @@ export const SidebarClose = styled.button`
     top: 25px;
     right: 35px;
   }
-`;
+`
 
 export const FooterSection = styled.footer`
   position: relative;
@@ -654,7 +656,7 @@ export const FooterSection = styled.footer`
       font-size: 14px;
     }
   }
-`;
+`
 
 export const ContactButton = styled.button`
   font-size: 20px;
@@ -677,6 +679,6 @@ export const ContactButton = styled.button`
     transform: translateY(0);
     font-size: 16px;
   }
-`;
+`
 
-export default MainContentWrapper;
+export default MainContentWrapper
