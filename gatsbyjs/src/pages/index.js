@@ -104,7 +104,7 @@ const IndexPage = () => {
         <MainWrapper>
           <MainContentWrapper>
             <LogoImageContainer>
-              <Link to={'/fourteen'}>
+              <Link to={'https://medplusdistribuidora.com/'}>
                 <img src={LogoImage} alt='logo' />
               </Link>
               <ContactButton type='submit' onClick={toggleHandle}>
