@@ -60,7 +60,6 @@ export const LogoImageContainer = styled.div`
     margin-top: 30px;
   }
   @media (max-width: 767px) {
-    margin-top: 20px;
     margin-bottom: 20px;
     display: flex;
     justify-content: space-between;
