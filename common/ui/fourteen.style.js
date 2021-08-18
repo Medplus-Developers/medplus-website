@@ -79,7 +79,7 @@ export const MainWrapper = styled.div`
   display: flex;
   max-width: 100%;
   overflow: hidden;
-  background: linear-gradient(0deg, #3a2d7b 0%, #aa4dbd 100%);
+  background: linear-gradient(0deg, #3a2d7b 0%, #c27fd0 100%);
   @media (max-width: 1300px) and (min-width: 1200px) {
     background-position: center 120%;
   }

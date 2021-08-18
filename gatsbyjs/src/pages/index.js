@@ -34,7 +34,7 @@ import MainContentWrapper, {
   ContactButton,
   ModalStyle
 } from '@deadline/common/ui/fourteen.style'
-import LogoImage from '@deadline/common/static/images/logoTwo.svg'
+import LogoImage from '@deadline/common/static/images/logoOne.svg'
 // Language translation files
 import localPor from '@deadline/common/data/translation/pt.json'
 import localEng from '@deadline/common/data/translation/en.json'
