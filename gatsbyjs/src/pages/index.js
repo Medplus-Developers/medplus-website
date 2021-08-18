@@ -46,7 +46,9 @@ const messages = {
   en: localEng
 }
 
-const deadline = new Date(Date.parse(new Date()) + 12 * 24 * 60 * 60 * 1000)
+const deadline = new Date(
+  Date.parse(new Date('13 august 2021 00:00:00 GMT')) + 45 * 24 * 60 * 60 * 1000
+)
 
 const IndexPage = () => {
   const [state, setState] = useState({

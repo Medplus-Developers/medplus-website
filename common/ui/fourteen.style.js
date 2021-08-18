@@ -80,7 +80,7 @@ export const MainWrapper = styled.div`
   display: flex;
   max-width: 100%;
   overflow: hidden;
-  background: linear-gradient(0deg, #aa4dbd 0%, #0d0a1a 100%);
+  background: linear-gradient(0deg, #3a2d7b 0%, #aa4dbd 100%);
   @media (max-width: 1300px) and (min-width: 1200px) {
     background-position: center 120%;
   }
@@ -543,8 +543,10 @@ export const Contact = styled.div`
       margin-bottom: 15px;
     }
   }
+
   button {
-    background: linear-gradient(-30deg, #3a2d7b 0%, #aa4dbd 100%);
+    padding: 10px 25px;
+    background-image: linear-gradient(-30deg, #3a2d7b 0%, #aa4dbd 100%);
   }
 `
 
@@ -582,7 +584,7 @@ export const InfoItem = styled.div`
 `
 
 export const InfoIcon = styled.div`
-  color: #bfbcc7;
+  color: #bfb8e5;
   margin-bottom: 25px;
 `
 
@@ -628,7 +630,7 @@ export const FooterSection = styled.footer`
         font-size: 16px;
         transition: 0.15s ease-in-out;
         &:hover {
-          color: #702e72;
+          color: #3a2d7b;
           background: #fff;
         }
         @media (max-width: 767px) {
