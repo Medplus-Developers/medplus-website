@@ -16,7 +16,7 @@ module.exports = {
     google: ''
   },
   googleAnalyticsID: 'G-1SZ9H0RPMQ',
-  themeColor: '#0d0a1a',
+  themeColor: '#3a2d7b',
   backgroundColor: '#aa4dbd',
   social: {
     facebook: '',

@@ -79,7 +79,7 @@ export const MainWrapper = styled.div`
   display: flex;
   max-width: 100%;
   overflow: hidden;
-  background: linear-gradient(0deg, #3a2d7b 0%, #c27fd0 100%);
+  background: linear-gradient(0deg, #3a2d7b 0%, #cf99d9 100%);
   @media (max-width: 1300px) and (min-width: 1200px) {
     background-position: center 120%;
   }
@@ -305,7 +305,7 @@ export const MainContentSection = styled.div`
   p {
     font-size: 21px;
     font-family: 'Lato', sans-serif;
-    color: #bfb8e5;
+    color: #e4e1f4;
     line-height: 1.83;
     text-align: center;
     max-width: 580px;
