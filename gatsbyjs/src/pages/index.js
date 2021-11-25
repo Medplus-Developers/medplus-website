@@ -47,7 +47,7 @@ const messages = {
 }
 
 const deadline = new Date(
-  Date.parse(new Date('13 august 2021 00:00:00 GMT')) + 45 * 24 * 60 * 60 * 1000
+  Date.parse(new Date('25 november 2021 00:00:00 GMT')) + 45 * 24 * 60 * 60 * 1000
 )
 
 const IndexPage = () => {
