@@ -50,5 +50,5 @@
   "dependencies": {
     "ua-parser-js": "1.0.2"
   },
-  "packageManager": "yarn@3.1.0"
+  "packageManager": "yarn@3.1.1"
 }
